@@ -1,0 +1,90 @@
+body {
+    overflow-x: hidden;
+}
+
+/* Estilo base para .movimiento */
+.movimiento {
+    /* Ajusta los estilos base según sea necesario */
+    transition: transform 0.3s ease; /* Define la transición aquí también */
+}
+
+/* Efecto al pasar el ratón sobre .movimiento */
+.movimiento:hover {
+    transform: translateY(-5px);
+}
+
+
+.img-fluid {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: translateY(-10px);
+}
+
+.card {
+    overflow: hidden;
+    border: none;
+}
+
+.card-img-top {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.position-relative {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(2, 2, 57);
+    opacity: 0.7;
+    z-index: 1;
+    pointer-events: none;
+    /* Evita que la capa interfiera con interacciones del usuario en la imagen */
+}
+
+.contenedorCarousel {
+    background-image: url(../imagenes/fondoimagenCarousel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.card2 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card2:hover {
+    transform: translateY(-10px);
+}
+
+.containerCTA{
+    background-color: rgb(1, 1, 26);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.decoracion{
+    text-decoration: none;
+}
+
+.input-group{
+    height: 50px;
+}
